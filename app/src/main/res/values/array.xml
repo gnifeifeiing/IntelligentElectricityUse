@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--最近告警 筛选类型-->
+    <string-array name="recently_report_type">
+        <item>全部类型</item>
+        <item>电流</item>
+        <item>温度</item>
+        <item>剩余电流</item>
+    </string-array>
+    <!--历史数据  筛选类型-->
+    <string-array name="history_data_type">
+        <item>全部类型</item>
+        <item>A相电流</item>
+        <item>B相电流</item>
+        <item>C相电流</item>
+        <item>剩余电流</item>
+        <item>A相温度</item>
+        <item>B相温度</item>
+        <item>C相温度</item>
+        <item>箱体温度</item>
+    </string-array>
+    <!--历史告警 筛选类型-->
+    <string-array name="history_alarm_type">
+        <item>全部状态</item>
+        <item>已处理</item>
+        <item>未处理</item>
+    </string-array>
+
+    <!--进入详情页判断字段：实时数据、历史数据、检测周报、历史告警-->
+    <string-array name="alarm_detail_type">
+        <item>sssj</item>
+        <item>lssj</item>
+        <item>jczb</item>
+        <item>lsgj</item>
+    </string-array>
+</resources>

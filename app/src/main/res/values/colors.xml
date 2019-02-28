@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6db4e8</color>
+    <color name="colorPrimaryDark">#6db4e8</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 界面字体默认颜色 -->
+    <color name="activity_text_default">#444444</color>
+
+    <!-- 界面默认背景颜色 -->
+    <color name="activity_bg_default">#f2f2f2</color>
+
+    <!-- 灰背景 -->
+    <color name="gray_bg">#f7f7f7</color>
+    <!-- 灰色线 -->
+    <color name="gray_line">#dcdcdc</color>
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 半透明 -->
+    <color name="translucent_background">#3D000000</color>
+    <!--基础色-->
+    <color name="white">#FFFFFF</color>
+    <!--黑色-->
+    <color name="black">#000000</color>
+    <!--银色-->
+    <color name="silver">#C0C0C0</color>
+    <!--灰色-->
+    <color name="gray">#cccccc</color>
+    <!-- 深灰色 -->
+    <color name="darkgray">#999999</color>
+    <!-- 浅灰色 -->
+    <color name="lightgray">#f2f2f2</color>
+    <!--褐紫红-->
+    <color name="maroon">#800000</color>
+    <!--红色-->
+    <color name="red">#FF0000</color>
+    <!--紫色-->
+    <color name="purple">#800080</color>
+    <!--晚樱-->
+    <color name="fuchsia">#FF00FF</color>
+    <!--绿-->
+    <color name="green">#008000</color>
+    <!--石灰-->
+    <color name="lime">#00FF00</color>
+    <!--橄榄-->
+    <color name="olive">#808000</color>
+    <!--黄-->
+    <color name="yellow">#FFFF00</color>
+    <!--海军蓝-->
+    <color name="navy">#000080</color>
+    <!--蓝-->
+    <color name="blue">#007ec5</color>
+    <!-- 蓝色 -->
+    <color name="gesture">#0E9BEC</color>
+    <!--水鸭-->
+    <color name="teal">#008080</color>
+    <!--水蓝-->
+    <color name="aqua">#00FFFF</color>
+    <!--天蓝-->
+    <color name="skyBlue">#60bce9</color>
+    <!-- 天蓝色 -->
+    <color name="skyblue">#51c2f2</color>
+    <!--浅蓝-->
+    <color name="lightBlue">#E0FFFF</color>
+    <!--深灰-->
+    <color name="deepGray">#444444</color>
+    <!--浅灰色-->
+    <color name="lightGray">#888888</color>
+    <!--橙色-->
+    <color name="orange">#FFA200</color>
+    <!-- 灰黑色 -->
+    <color name="lightblack">#808080</color>
+    <!-- 浅黑色 -->
+    <color name="transblack">#333333</color>
+
+    <color name="basecolor">#007ec5</color>
+
+    <color name="item_wrong_bancground">#0180F7</color>
+    <!-- 横线默认颜色 -->
+    <color name="line_bg_default"> #ededed</color>
+    <color name="warn_text">#ff7a4a</color>
+    <color name="normal_text">#129211</color>
+    <color name="offline_text">#7b7a81</color>
+</resources>

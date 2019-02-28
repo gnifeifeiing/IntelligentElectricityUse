@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_bg_default"
+    tools:context="com.zpxt.zhyd.ui.setting.UpdatePwdActivity">
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_rect"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.zpxt.zhyd.views.ClearEditText
+            android:id="@+id/updatePwd_oldPwdClet"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:drawableLeft="@mipmap/password"
+            android:hint="请输入原登录密码"
+            android:inputType="textPassword"
+            android:imeOptions="actionNext"
+            android:padding="0dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray" />
+
+        <com.zpxt.zhyd.views.ClearEditText
+            android:id="@+id/updatePwd_newPwdClet"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:drawableLeft="@mipmap/password"
+            android:hint="请输入不少于6位登录密码"
+            android:inputType="textPassword"
+            android:imeOptions="actionNext"
+            android:padding="0dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray" />
+
+        <com.zpxt.zhyd.views.ClearEditText
+            android:id="@+id/updatePwd_confirmPwdClet"
+            style="@style/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:drawableLeft="@mipmap/password"
+            android:hint="请确认您的新密码"
+            android:inputType="textPassword"
+            android:imeOptions="actionNext"
+            android:padding="0dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updatePwd_commitBtn"
+        style="@style/orange_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="确认修改"
+        android:textSize="15sp"/>
+</LinearLayout>

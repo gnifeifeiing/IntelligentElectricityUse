@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/update_dialogbg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="正在下载"
+        android:textSize="16dp"
+        android:textColor="@color/basecolor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/basecolor" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/darkgray"
+        android:textSize="14dp" />
+    <!--进度条-->
+    <com.zpxt.zhyd.views.WDSeekBar
+        android:id="@+id/pb_product_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:max="100"
+        android:maxHeight="5dp"
+        android:minHeight="5dp"
+        android:progressDrawable="@drawable/loan_pb_bg"
+        android:thumb="@drawable/shape_pb_circle"
+        android:thumbOffset="1dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/basecolor"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

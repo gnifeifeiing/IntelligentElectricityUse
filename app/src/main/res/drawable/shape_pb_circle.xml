@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <size
+        android:width="10dp"
+        android:height="10dp"></size>
+    <solid android:color="@color/item_wrong_bancground"></solid>
+    <stroke
+        android:width="4dp"
+        android:color="#66007ec5"></stroke>
+</shape>

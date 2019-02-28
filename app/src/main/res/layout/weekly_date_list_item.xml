@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/weeklyDateItem_titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/activity_text_default"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:text="平煤七矿"/>
+
+    <TextView
+        android:id="@+id/weeklyDateItem_startDateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/weeklyDateItem_lineTv"
+        android:textColor="@color/activity_text_default"
+        android:textSize="14sp"
+        android:text="2018.03.01"/>
+
+    <TextView
+        android:id="@+id/weeklyDateItem_lineTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/weeklyDateItem_endDateTv"
+        android:textSize="14sp"
+        android:text="-"/>
+
+    <TextView
+        android:id="@+id/weeklyDateItem_endDateTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="14sp"
+        android:textColor="@color/activity_text_default"
+        android:text="2018.03.01"/>
+</RelativeLayout>

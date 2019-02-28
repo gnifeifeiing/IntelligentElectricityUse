@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg_default"
+    android:orientation="vertical"
+    tools:context="com.zpxt.zhyd.ui.report.RecentlyReportDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/reportDetail_backIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/actionbar_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="告警详情"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout style="@style/report_detail_ll">
+
+                <TextView
+                    style="@style/report_detail_ll_left_tv"
+                    android:text="单位名称" />
+
+                <TextView
+                    android:id="@+id/reportDetail_orgNameTv"
+                    style="@style/report_detail_ll_right_tv"
+                    android:text="华拓电力" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_bg_default" />
+
+            <LinearLayout style="@style/report_detail_ll">
+
+                <TextView
+                    style="@style/report_detail_ll_left_tv"
+                    android:text="报警类型" />
+
+                <TextView
+                    android:id="@+id/reportDetail_sensorNameTv"
+                    style="@style/report_detail_ll_right_tv"
+                    android:text="C相电流" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_bg_default" />
+
+            <LinearLayout style="@style/report_detail_ll">
+
+                <TextView
+                    style="@style/report_detail_ll_left_tv"
+                    android:text="报警数值" />
+
+                <TextView
+                    android:id="@+id/reportDetail_dataTv"
+                    style="@style/report_detail_ll_right_tv"
+                    android:text="0.00mA" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_bg_default" />
+
+            <LinearLayout style="@style/report_detail_ll">
+
+                <TextView
+                    style="@style/report_detail_ll_left_tv"
+                    android:text="配电柜名称" />
+
+                <TextView
+                    android:id="@+id/reportDetail_boxNameTv"
+                    style="@style/report_detail_ll_right_tv"
+                    android:text="3F西" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_bg_default" />
+
+            <LinearLayout style="@style/report_detail_ll">
+
+                <TextView
+                    style="@style/report_detail_ll_left_tv"
+                    android:text="设备ID" />
+
+                <TextView
+                    android:id="@+id/reportDetail_nodeIDTv"
+                    style="@style/report_detail_ll_right_tv"
+                    android:text="88815469585546" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_bg_default" />
+
+            <LinearLayout style="@style/report_detail_ll">
+
+                <TextView
+                    style="@style/report_detail_ll_left_tv"
+                    android:text="告警时间" />
+
+                <TextView
+                    android:id="@+id/reportDetail_dateTimeTv"
+                    style="@style/report_detail_ll_right_tv"
+                    android:text="2018-01-12 06:25" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_bg_default" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/reportDetail_adviceEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:maxLines="8"
+                    android:background="@null"
+                    android:gravity="top|left"
+                    android:hint="请输入处理意见"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/reportDetail_dealWithBtn"
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/activity_button_default_bg"
+                    android:text="处理"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

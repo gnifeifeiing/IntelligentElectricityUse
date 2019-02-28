@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/activity_bg_default"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/check_report_detail_rl"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                style="@style/check_report_detail_rl_left_tv"
+                android:text="检测区域" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_jcTitleTv"
+                style="@style/check_report_detail_rl_right_tv"
+                android:layout_toLeftOf="@+id/mainThird_jcqyIv"
+                android:text="田庄洗煤厂机房" />
+
+            <ImageView
+                android:id="@+id/mainThird_jcqyIv"
+                style="@style/check_report_detail_rl_right_iv" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_bg_default" />
+
+        <RelativeLayout style="@style/check_report_detail_rl">
+
+            <TextView
+                style="@style/check_report_detail_rl_left_tv"
+                android:text="监测时间" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_dateTv"
+                style="@style/check_report_detail_rl_right_tv"
+                android:layout_toLeftOf="@+id/mainThird_jcsjIv"
+                android:text="2018.03.01-2018.03.07"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/mainThird_jcsjIv"
+                style="@style/check_report_detail_rl_right_iv" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="监测报告"
+            android:textColor="@color/activity_text_default" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_bg_default" />
+
+        <RelativeLayout style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="剩余电流" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_irNumTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="正常"
+                android:textColor="@color/normal_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <RelativeLayout style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="线缆电流" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_eleIaNumTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="正常"
+                android:textColor="@color/normal_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <RelativeLayout
+            style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="线缆温度" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_eleTNumTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="正常"
+                android:textColor="@color/normal_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <RelativeLayout style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="箱体温度" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_txNumTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="正常"
+                android:textColor="@color/normal_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="报警统计"
+            android:textColor="@color/activity_text_default" />
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <RelativeLayout style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="剩余电流报警" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_irNumCSTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="0次"
+                android:textColor="@color/warn_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <RelativeLayout style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="线缆电流报警" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_eleIaNumCSTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="0次"
+                android:textColor="@color/offline_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <RelativeLayout style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="线缆温度报警" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_eleTNumCSTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="0次"
+                android:textColor="@color/offline_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <RelativeLayout style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="箱体温度报警" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_txNumCSTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="0次"
+                android:textColor="@color/offline_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <RelativeLayout style="@style/check_report_detail_jcbg_rl">
+
+            <TextView
+                style="@style/check_report_detail_jcbg_rl_left_tv"
+                android:text="报警次数统计:" />
+
+            <TextView
+                android:id="@+id/weeklyDetail_maxNumCSTv"
+                style="@style/check_report_detail_jcbg_rl_right_tv"
+                android:text="0次"
+                android:textColor="@color/warn_text" />
+        </RelativeLayout>
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="备注"
+            android:textColor="@color/activity_text_default" />
+
+        <View style="@style/check_report_detail_jcbg_view" />
+
+        <TextView
+            android:id="@+id/weeklyDetail_noteTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="无"
+            android:textColor="@color/lightblack"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

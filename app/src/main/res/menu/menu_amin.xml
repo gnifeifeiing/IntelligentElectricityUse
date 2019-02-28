@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@mipmap/main_nav_account"
+            android:title="中平信息技术有限公司" />
+        <item
+            android:id="@+id/mainNav_setting"
+            android:icon="@mipmap/main_nav_setting"
+            android:title="设置" />
+        <item android:icon="@mipmap/main_nav_about"
+            android:title="关于" />
+        <item
+            android:id="@+id/mainNav_advice"
+            android:icon="@mipmap/main_nav_tickling"
+            android:title="意见反馈" />
+        <item
+            android:id="@+id/mainNav_logout"
+            android:icon="@mipmap/main_nav_loginout"
+            android:title="退出登录" />
+    </group>
+</menu>

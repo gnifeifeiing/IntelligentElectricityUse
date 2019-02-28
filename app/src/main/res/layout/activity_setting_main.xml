@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_bg_default"
+    tools:context="com.zpxt.zhyd.ui.setting.SettingMainActivity">
+
+    <RelativeLayout
+        android:id="@+id/setting_updatePwdRl"
+        style="@style/setting_item_rl">
+
+        <TextView
+            style="@style/setting_item_left_text"
+            android:text="修改密码" />
+
+        <ImageView style="@style/setting_item_right_img" />
+    </RelativeLayout>
+
+    <View style="@style/setting_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/setting_aboutUsRl"
+        style="@style/setting_item_rl">
+
+        <TextView
+            style="@style/setting_item_left_text"
+            android:text="关于我们" />
+
+        <ImageView style="@style/setting_item_right_img" />
+    </RelativeLayout>
+
+    <View style="@style/setting_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/setting_msgPushRl"
+        style="@style/setting_item_rl">
+
+        <TextView
+            style="@style/setting_item_left_text"
+            android:text="推送设置" />
+
+        <ImageView style="@style/setting_item_right_img" />
+    </RelativeLayout>
+
+    <View style="@style/setting_item_line"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/setting_clearCacheRl"
+        android:visibility="gone"
+        style="@style/setting_item_rl">
+
+        <TextView
+            style="@style/setting_item_left_text"
+            android:text="清除缓存" />
+
+
+        <TextView
+            android:id="@+id/setting_cacheTv"
+            style="@style/setting_item_right_Tv"
+            android:text="0.00M" />
+    </RelativeLayout>
+
+    <View style="@style/setting_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/setting_versionInfoRl"
+        style="@style/setting_item_rl">
+
+        <TextView
+            style="@style/setting_item_left_text"
+            android:text="版本信息" />
+
+
+        <TextView
+            android:id="@+id/setting_versionTv"
+            style="@style/setting_item_right_Tv"
+            android:background="@drawable/app_version_bg"
+            android:textColor="@color/white"
+            android:text="2.0.1" />
+    </RelativeLayout>
+
+    <View style="@style/setting_item_line"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/setting_loginOutTv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/activity_text_default"
+        android:textSize="16sp"
+        android:text="退出登录"/>
+
+
+</LinearLayout>

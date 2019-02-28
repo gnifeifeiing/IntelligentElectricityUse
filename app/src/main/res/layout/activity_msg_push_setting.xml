@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg_default"
+    android:orientation="vertical"
+    tools:context="com.zpxt.zhyd.ui.setting.MsgPushSettingActivity">
+
+    <LinearLayout
+        android:id="@+id/setting_topLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/pushSetting_msgPushRl"
+            style="@style/setting_item_rl">
+
+            <TextView
+                style="@style/setting_item_left_text"
+                android:text="消息推送" />
+
+            <com.suke.widget.SwitchButton
+                android:id="@+id/pushSetting_msgPushTogleBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                app:sb_checked="true" />
+
+        </RelativeLayout>
+
+        <View
+            style="@style/setting_item_line"/>
+
+        <RelativeLayout
+            style="@style/setting_item_rl">
+
+            <TextView
+                style="@style/setting_item_left_text"
+                android:text="推送类型" />
+
+
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/pushSetting_pushTypeRg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:fadingEdge="none"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/pushSetting_pushTypeAllRb"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:button="@color/transparent"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="全部类型"
+                android:checked="true"
+                android:background="@drawable/push_msg_setting_type_rb" />
+
+            <RadioButton
+                android:id="@+id/pushSetting_pushTypeTRb"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:button="@color/transparent"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/push_msg_setting_type_rb"
+                android:text="温度" />
+
+            <RadioButton
+                android:id="@+id/pushSetting_pushTypeIRb"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:button="@color/transparent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/push_msg_setting_type_rb"
+                android:text="电流"/>
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/pushSetting_submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/push_setting_submit_bg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="完   成"/>
+    </LinearLayout>
+</LinearLayout>

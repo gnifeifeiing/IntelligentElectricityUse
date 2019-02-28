@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">智慧用电</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="loading_text">请求中...</string>
+    <string name="logining_text">自动登录中...</string>
+    <!--首页导航栏-->
+    <string name="tab_sssj">实时数据</string>
+    <string name="tab_lssj">历史数据</string>
+    <string name="tab_jczb">检测周报</string>
+    <string name="tab_lsgj">历史告警</string>
+
+    <!-- Download error -->
+    <string name="download_error">下载出错了：%1$s</string>
+    <string name="download_error_server">服务器数据错误！</string>
+    <string name="download_error_network">网络不可用，请检查网络！</string>
+    <string name="download_error_storage">存储卡错误，请检查存储卡！</string>
+    <string name="download_error_space">存储卡空间不足！</string>
+    <string name="download_error_timeout">下载超时！</string>
+    <string name="download_error_un_know_host">找不到服务器。</string>
+    <string name="download_error_url">URL地址错误。</string>
+    <string name="download_error_un">未知错误。</string>
+
+</resources>

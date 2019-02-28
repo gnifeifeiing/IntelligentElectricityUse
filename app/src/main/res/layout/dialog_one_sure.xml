@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/update_dialogbg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="温馨提示"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:lineSpacingExtra="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:text="您好，这里是捷盈宝"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#D9D9D9" />
+        <TextView
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="知道了"
+            android:textColor="#107fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
